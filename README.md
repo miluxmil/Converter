@@ -108,8 +108,8 @@ sudo pacman -S python python-pip ffmpeg imagemagick curl yt-dlp
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone https://github.com/miluxmil/converterv1.git
-   cd converterv1
+   git clone https://github.com/miluxmil/Converter.git
+   cd Converter
    ```
 
 2. **Instalar dependencias de Python:**
@@ -146,7 +146,7 @@ python3 main.py
 ## 📁 Estructura del Proyecto
 
 ```text
-converterv1/
+Converter/
 ├── main.py                     # Punto de entrada principal y bootstrap
 ├── requirements.txt            # Dependencias de Python
 ├── LICENSE                     # Licencia GNU GPL v3.0 o posterior
@@ -192,4 +192,5 @@ GNU General Public License for more details.
 
 Desarrollado con dedicación por:
 - **</[M]iLu{×}_> | DNP**
-- Repositorio: [miluxmil/converterv1](https://github.com/miluxmil/converterv1)
+- Repositorio: [miluxmil/Converter](https://github.com/miluxmil/Converter)
+- t.me/miluxmil
