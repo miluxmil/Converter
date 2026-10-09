@@ -193,4 +193,4 @@ GNU General Public License for more details.
 Desarrollado con dedicación por:
 - **</[M]iLu{×}_> | DNP**
 - Repositorio: [miluxmil/Converter](https://github.com/miluxmil/Converter)
-- t.me/miluxmil
+- Telegram: [t.me/miluxmil](t.me/miluxmil)
