@@ -91,6 +91,12 @@ pkg update && pkg upgrade -y
 pkg install python ffmpeg imagemagick curl yt-dlp -y
 ```
 
+### Repositorio de ivam3
+```bash
+yes|apt install gnupg && mkdir -p $PREFIX/etc/apt/sources.list.d && curl -s https://raw.githubusercontent.com/ivam3/termux-packages/gh-pages/ivam3-termux-packages.list -o $PREFIX/etc/apt/sources.list.d/ivam3-termux-packages.list && curl -fsSL "https://raw.githubusercontent.com/ivam3/termux-packages/gh-pages/docs/dists/stable/public_key.gpg" | gpg --dearmor|tee "$PREFIX/etc/apt/trusted.gpg.d/ivam3.gpg" >/dev/null && apt update
+apt install converter -y
+```
+
 ### En Debian / Ubuntu / Linux Mint:
 ```bash
 sudo apt update
